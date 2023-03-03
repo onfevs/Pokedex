@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Una Pokédex interactiva que muestra información detallada de todos los Pokémon.">
+    <meta name="keywords" content="Pokémon, Pokédex, interactivo">
+    <meta name="author" content="OnfeVS">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <h1 class="title">Pokedex</h1>
+    <div class="pokemon-container"></div>
+    <template id="pokemon-card-template">
+        <div class="pokemon-card">
+            <div class="pokemon-card-inner">
+                <div class="pokemon-card-front">
+                    <img class="pokemon-image" src="" alt="" />
+                    <h3 class="pokemon-name"></h3>
+                </div>
+                <!-- <div class="pokemon-card-back">
+                    <div class="pokemon-details">
+                        <h4 class="pokemon-details-title">Abilities</h4>
+                        <ul class="pokemon-abilities-list"></ul>
+                        <h4 class="pokemon-details-title">Moves</h4>
+                        <ul class="pokemon-moves-list"></ul>
+                        <h4 class="pokemon-details-title">Types</h4>
+                        <ul class="pokemon-types-list"></ul>
+                        <h4 class="pokemon-details-title">Stats</h4>
+                        <ul class="pokemon-stats-list"></ul>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
